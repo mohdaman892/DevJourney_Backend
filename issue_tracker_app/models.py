@@ -8,8 +8,9 @@ from django.utils import timezone
 
 class User(models.Model):
     user_id = models.UUIDField(primary_key=True)
-    username = models.CharField(max_length=15, null=False)
+    email = models.EmailField(null=True)
     password = models.TextField(null=False)
+    role = models.TextField(null=True)
     created_at = models.DateTimeField(default=timezone.now())
     last_modified = models.DateTimeField(blank=True, null=True)
 

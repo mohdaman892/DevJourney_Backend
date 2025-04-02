@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'issue_tracker_app.utils.refresh_jwt_token'
 ]
 
 ROOT_URLCONF = 'backend.urls'
