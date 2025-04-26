@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'issue_tracker_app'
+    'devjourney'
 ]
 
 MIDDLEWARE = [
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'issue_tracker_app.utils.refresh_jwt_token'
+    'devjourney.utils.refresh_jwt_token'
 ]
 
 ROOT_URLCONF = 'backend.urls'
