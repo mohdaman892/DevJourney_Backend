@@ -1,4 +1,4 @@
 *.env
 *.sqlite3
-/issue_tracker_app/migrations/
+/devjourney/migrations/
 *.pyc
